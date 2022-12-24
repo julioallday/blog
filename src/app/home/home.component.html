@@ -6,7 +6,7 @@
     <span class="logo-3">Blog</span>
   </div>
 </header>
-<main *ngIf="blogPosts$ | async as blogPosts">
+<main class="parallax" *ngIf="blogPosts$ | async as blogPosts">
   <div class="blog-posts-container" *ngFor="let blogPost of blogPosts.items">
     <img [src]="blogPost.fields.featuredImage.fields.file.url" />
     <h2>{{ blogPost.fields.title }}</h2>
