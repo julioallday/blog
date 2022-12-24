@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #353535;
+  color: #f1f1f1;
 
 }
 header{
@@ -12,21 +12,26 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #353535;
   margin-bottom: 150px;
 }
 header div {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: flex-start;
-  align-items: flex-start;
-
+  align-items: center;
 }
 
 header div span{
   display:block;
   text-align: center;
+}
+.logo-1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: -5px;
+  letter-spacing: 15px;
+ padding-left: 18px;
 }
 .logo-2{
   font-size: 50px;
@@ -34,6 +39,7 @@ header div span{
   margin-left: -5px;
 }
 .logo-3{
+  padding-left: 15px;
   letter-spacing: 20px;
 }
 .blog-posts-container{
@@ -41,7 +47,7 @@ header div span{
   margin: 0 auto;
   margin-bottom: 150px;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #353535;
   border-radius: 8px;
 }
 .blog-posts-container img {
@@ -59,11 +65,14 @@ header div span{
 }
 .blog-posts-container a {
 text-decoration: none;
-background-color: #353535;
-color: white;
+background-color: #f1f1f1;
+color: #353535;
 padding: 10px 20px;
 border-radius: 2px;
 display: inline-block;
+}
+.blog-posts-container a:hover {
+  color:rebeccapurple
 }
 .post-container{
   max-width: 600px;
