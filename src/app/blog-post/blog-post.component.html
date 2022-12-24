@@ -1,0 +1,8 @@
+<main *ngIf="blogPosts$ | async as blogPost">
+  <div class="post-container">
+    <img [src]="blogPost.fields.featuredImage.fields.file.url" />
+    <h2>{{ blogPost.fields.title }}</h2>
+    <p class="author">{{ blogPost.fields.author }}</p>
+    <p class="content" [innerHTML]="_returnHtmlFromRichText(blogPost.fields.content)"></p>
+  </div>
+</main>
