@@ -7,6 +7,7 @@
   </div>
 </header>
 <main class="parallax" *ngIf="blogPosts$ | async as blogPosts">
+  <app-nav-bar></app-nav-bar>
   <div class="blog-posts-container" *ngFor="let blogPost of blogPosts.items">
     <img [src]="blogPost.fields.featuredImage.fields.file.url" />
     <h2>{{ blogPost.fields.title }}</h2>

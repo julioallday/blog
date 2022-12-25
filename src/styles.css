@@ -12,7 +12,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #353535;
-  margin-bottom: 150px;
 }
 header div {
   display: flex;
@@ -41,6 +40,7 @@ header div span {
   padding-left: 15px;
   letter-spacing: 20px;
 }
+
 .parallax {
   background-image: url("https://cdn.sanity.io/images/2yyup5mx/production/d5a915cd9db3444998926f61645b6f83a53aced0-5000x2813.jpg");
   min-height: 500px;
