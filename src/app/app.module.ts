@@ -12,7 +12,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     AppComponent,
     HomeComponent,
     BlogPostComponent,
-    NavBarComponent
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,

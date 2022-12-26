@@ -42,12 +42,13 @@ header div span {
 }
 
 .parallax {
-  background-image: url("https://cdn.sanity.io/images/2yyup5mx/production/d5a915cd9db3444998926f61645b6f83a53aced0-5000x2813.jpg");
+  background-image: url("https://images.pexels.com/photos/1933682/pexels-photo-1933682.jpeg?cs=srgb&dl=4k-wallpaper-black-c-code-1933682.jpg&fm=jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .blog-posts-container {
@@ -76,11 +77,13 @@ header div span {
   background-color: #f1f1f1;
   color: #353535;
   padding: 10px 20px;
-  border-radius: 2px;
+  border-radius: 8px;
   display: inline-block;
+  transition-duration: 300ms;
 }
 .blog-posts-container a:hover {
-  color: rebeccapurple;
+  color: chocolate;
+  transition-duration: 300ms;
 }
 .post-container {
   max-width: 600px;
@@ -105,5 +108,25 @@ header div span {
 }
 .author {
   color: #aaa;
+}
+.top-button{
+  position: fixed;
+  bottom: 50px;
+  right: 5rem;
+  color: rgba(0, 0, 0, 0.279);
+  background-color: rgba(170, 170, 170, 0.15);
+  width: max-content;
+  height: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  transition-duration: 700ms;
+  border-style: none;
+  margin: 0 auto;
+}
+.top-button:hover{
+  background-color: rgba(170, 170, 170, 0.951);
+  color: #353535;
+  transition-duration: 700ms;
+  border-style: solid;
 }
 

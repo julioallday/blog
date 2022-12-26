@@ -1,12 +1,12 @@
-<header>
+<header #scroll>
   <div>
     <span class="logo">The</span>
     <span class="logo-1">Curly</span>
     <span class="logo-2">Brackets</span>
-    <span class="logo-3">Blog</span>
+    <span  class="logo-3">Blog</span>
   </div>
 </header>
-<main class="parallax" *ngIf="blogPosts$ | async as blogPosts">
+<main *ngIf="blogPosts$ | async as blogPosts">
   <app-nav-bar></app-nav-bar>
   <div class="blog-posts-container" *ngFor="let blogPost of blogPosts.items">
     <img [src]="blogPost.fields.featuredImage.fields.file.url" />
@@ -16,3 +16,6 @@
     <a [routerLink]="['blog', blogPost.sys.id]">Read More..</a>
   </div>
 </main>
+<div *ngIf="isShow">
+  <button class="top-button" (click)="scrollTop()">Voltar ao topo!</button>
+</div>

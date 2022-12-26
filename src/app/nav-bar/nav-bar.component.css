@@ -1,7 +1,7 @@
 .navbar{
   display: flex;
   justify-content: center;
-  background-color: rgba(233, 233, 233, 0.905);
+  background-color: rgb(58, 63, 66);
   margin-bottom: 150px;
   position: sticky;
   top: 0;
@@ -11,14 +11,24 @@
   border-bottom: 4px;
   border-color: rgb(75, 75, 75);
   border-style: solid;
+  transition-duration: 300ms;
 }
 .navbar a{
   text-decoration: none;
   letter-spacing: 10px;
-  color: rgb(93, 91, 91);
+  color: rgb(75, 75, 75);
+  transition-duration: 300ms;
 }
 .navbar a:hover{
-  text-decoration: none;
-  letter-spacing: 11px;
+  color:chocolate;
+  transition-duration: 300ms;
+  font-weight: bolder;
+
+}
+.header_change{
+  background: rgba(233, 233, 233, 0.905);
+  transition-duration: 300ms;
+}
+.header_change a{
   color: rgb(49, 48, 48);
 }
