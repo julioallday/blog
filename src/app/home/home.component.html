@@ -15,7 +15,5 @@
     <p class="summary">{{ blogPost.fields.summary }}</p>
     <a [routerLink]="['blog', blogPost.sys.id]">Read More..</a>
   </div>
+  <app-top-button></app-top-button>
 </main>
-<div *ngIf="isShow">
-  <button class="top-button" (click)="scrollTop()">Voltar ao topo!</button>
-</div>
