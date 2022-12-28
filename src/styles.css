@@ -40,24 +40,28 @@ header div span {
   padding-left: 15px;
   letter-spacing: 20px;
 }
-
+/* ./iceMountain.png */
 .parallax {
-  background-image: url("https://images.pexels.com/photos/1933682/pexels-photo-1933682.jpeg?cs=srgb&dl=4k-wallpaper-black-c-code-1933682.jpg&fm=jpg");
+  background-image: url("https://wallpapercave.com/wp/wp9249506.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .blog-posts-container {
   max-width: 600px;
   margin: 0 auto;
   margin-bottom: 150px;
-  padding: 20px;
-  background-color: #353535;
+  background-color: #353535b8;
   border-radius: 8px;
+  overflow: hidden;
+  transition-duration: 600ms;
+}
+.blog-posts-container:hover{
+  background-color: #353535;
+  transition-duration: 600ms;
 }
 .blog-posts-container img {
   width: 100%;
@@ -65,12 +69,15 @@ header div span {
 }
 .blog-posts-container h2 {
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 .blog-posts-container .author {
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 .blog-posts-container .summary {
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 .blog-posts-container a {
   text-decoration: none;
@@ -80,6 +87,7 @@ header div span {
   border-radius: 8px;
   display: inline-block;
   transition-duration: 300ms;
+  margin: 20px;
 }
 .blog-posts-container a:hover {
   color: chocolate;
@@ -90,9 +98,15 @@ header div span {
   margin: 0 auto;
   margin-bottom: 150px;
   margin-top: 150px;
-  background-color: #353535;
+  background-color: #353535b8;
   border-radius: 20px;
   overflow: hidden;
+  transition-duration: 600ms;
+}
+.post-container:hover {
+  background-color: #353535;
+  transition-duration: 1000ms;
+
 }
 .post-container img {
   width: 100%;
@@ -109,12 +123,12 @@ header div span {
 .author {
   color: #aaa;
 }
-.top-button{
+.top-button {
   position: fixed;
   bottom: 50px;
   right: 5rem;
   color: rgba(0, 0, 0, 0.279);
-  background-color: rgba(170, 170, 170, 0.15);
+  background-color: rgba(170, 170, 170, 0.506);
   width: max-content;
   height: 70px;
   padding: 10px;
@@ -123,10 +137,9 @@ header div span {
   border-style: none;
   margin: 0 auto;
 }
-.top-button:hover{
+.top-button:hover {
   background-color: rgba(170, 170, 170, 0.951);
   color: #353535;
   transition-duration: 700ms;
   border-style: solid;
 }
-
