@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   display: flex;
   justify-content: center;
   background-color: rgb(58, 63, 66);
@@ -12,40 +12,41 @@
   border-color: rgb(75, 75, 75);
   border-style: solid;
   transition-duration: 300ms;
+  height: 50px;
 }
-.navbar:hover{
+.navbar:hover {
   background-color: rgb(58, 63, 66);
   border-color: rgb(75, 75, 75);
   border-style: solid;
   transition-duration: 300ms;
 }
-.navbar a{
+.navbar a {
   text-decoration: none;
   color: rgb(75, 75, 75);
   transition-duration: 300ms;
   letter-spacing: 6px;
 }
-.navbar a:hover{
+.navbar a:hover {
   transition-duration: 300ms;
   font-weight: bolder;
 }
-.header_change{
+.header_change {
   background: rgba(233, 233, 233, 0.905);
   transition-duration: 600ms;
+  height: 80px;
+  font-size: 30px;
 }
-.header_change:hover{
+.header_change:hover {
   background: rgb(233, 233, 233);
   border-color: chocolate;
   transition-duration: 1000ms;
-
 }
-.header_change a{
+.header_change a {
   color: rgb(49, 48, 48);
   transition-duration: 600ms;
 }
-.header_change a:hover{
+.header_change a:hover {
   color: chocolate;
   transition-duration: 600ms;
   letter-spacing: 10px;
-
 }
